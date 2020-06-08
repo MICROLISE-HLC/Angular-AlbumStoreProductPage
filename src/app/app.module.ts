@@ -6,8 +6,8 @@ import { HttpModule } from '@angular/http';
 import { AppComponent } from './app.component';
 import { ProductPageComponent } from './product-page/product-page.component';
 import { ProductDescriptionComponent } from './product-description/product-description.component';
-import { ProductService } from './product.service';
 import { ProductTracklistingComponent } from './product-tracklisting/product-tracklisting.component';
+import { ProductService } from './product.service';
 
 @NgModule({
   declarations: [
@@ -20,7 +20,6 @@ import { ProductTracklistingComponent } from './product-tracklisting/product-tra
     BrowserModule,
     FormsModule,
     HttpModule,
-    ProductService
   ],
   providers: [ProductService],
   bootstrap: [AppComponent]
